@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - cameLtaiL</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 2 · cameLtaiL</h1>
+        <p>Extrae partes de una cadena y transforma letras a mayúsculas.</p>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Los índices de una cadena empiezan en <code>0</code>. Su propiedad <code>length</code> indica cuántos caracteres tiene; la última posición es <code>length - 1</code>.</p>
+        <p><code>slice(0, -1)</code> devuelve el texto sin su último carácter y <code>toUpperCase()</code> convierte una cadena a mayúsculas.</p>
+        <pre><code>const palabra = "luna";
+console.log(palabra.length); // 4
+console.log(palabra[palabra.length - 1]); // a
+console.log(palabra.slice(0, -1)); // lun
+console.log("a".toUpperCase()); // A</code></pre>
+        <p class="idea"><strong>Estos métodos devuelven cadenas nuevas.</strong> Combina el inicio de cada palabra con su última letra en mayúscula.</p>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre este archivo con <strong>Live Server</strong> y abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <ol>
+          <li>A partir de <code>part1</code> y <code>part2</code>, convierte la última letra de cada parte a mayúscula.</li>
+          <li>Concatena ambas partes en una variable <code>result</code> para obtener <code>javAscripT</code>.</li>
+          <li>Muestra <code>result</code> con <code>console.log()</code>.</li>
+        </ol>
+        <p>Completa el código dentro de la etiqueta <code>&lt;script&gt;</code>, al final del archivo. Intenta resolverlo antes de desplegar el resultado esperado.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado (pulsa para verlo)</summary>
+        <pre>javAscripT</pre>
+      </details>
+    </main>
+    <script>
+      const part1 = "java";
+      const part2 = "script";
+
+      // Convierte la última letra de part1 y part2 a mayúscula.
+      // Concatena las partes y guarda la cadena en una variable result.
+
+      // Muestra la cadena con formato cameLtaiL en la consola.
+    </script>
+  </body>
+</html>
+

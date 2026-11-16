@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Trabalenguas</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 1 · Trabalenguas</h1>
+        <p>Une palabras y variables para construir una cadena de texto.</p>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>El operador <code>+</code> permite concatenar (unir) cadenas de texto. Puedes combinar variables y texto entre comillas.</p>
+        <pre><code>const nombre = "Luna";
+const saludo = "Hola, " + nombre + "!";
+console.log(saludo); // Hola, Luna!</code></pre>
+        <p class="idea"><strong>Los espacios también son texto.</strong> Añádelos entre comillas para que las palabras no queden pegadas.</p>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre este archivo con <strong>Live Server</strong> y abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <ol>
+          <li>Crea una variable <code>tongueTwister</code> combinando <code>s1</code>, <code>s2</code>, <code>s3</code>, <code>s4</code> y <code>s5</code>. Puedes reutilizarlas.</li>
+          <li>Forma el texto <code>Fred fed Ted bread and Ted fed Fred bread</code>.</li>
+          <li>Muestra <code>tongueTwister</code> con <code>console.log()</code>.</li>
+        </ol>
+        <p>Completa el código dentro de la etiqueta <code>&lt;script&gt;</code>, al final del archivo. Intenta resolverlo antes de desplegar el resultado esperado.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado (pulsa para verlo)</summary>
+        <pre>Fred fed Ted bread and Ted fed Fred bread</pre>
+      </details>
+    </main>
+    <script>
+      const s1 = "Fred";
+      const s2 = "fed";
+      const s3 = "Ted";
+      const s4 = "bread";
+      const s5 = "and";
+
+      // Concatena las variables en una nueva variable tongueTwister.
+      // Recuerda incluir los espacios entre las palabras.
+
+      // Muestra la cadena concatenada en la consola.
+    </script>
+  </body>
+</html>
+

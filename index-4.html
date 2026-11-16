@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4 - Número aleatorio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 4 · Número aleatorio</h1>
+        <p>Combina Math.random() y Math.floor() para generar números enteros.</p>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p><code>Math.random()</code> genera un decimal mayor o igual que <code>0</code> y menor que <code>1</code>. Al multiplicarlo, amplías ese intervalo.</p>
+        <p><code>Math.floor()</code> redondea hacia abajo al entero más cercano.</p>
+        <pre><code>console.log(Math.floor(3.8)); // 3
+// Un entero entre 0 y 3:
+console.log(Math.floor(Math.random() * 4));</code></pre>
+        <p class="idea"><strong>Revisa los límites.</strong> Piensa qué valor debes sumar para que el intervalo empiece en 1 en lugar de 0.</p>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre este archivo con <strong>Live Server</strong> y abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <ol>
+          <li>Genera un número entero aleatorio entre <code>1</code> y <code>10</code>, ambos incluidos.</li>
+          <li>Utiliza <code>Math.random()</code> y <code>Math.floor()</code> y guarda el resultado en <code>randomNumber</code>.</li>
+          <li>Muestra el número con <code>console.log()</code>. Recarga varias veces para observar los resultados.</li>
+        </ol>
+        <p>Completa el código dentro de la etiqueta <code>&lt;script&gt;</code>, al final del archivo. Intenta resolverlo antes de desplegar el resultado esperado.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado (pulsa para verlo)</summary>
+        <pre>7</pre>
+        <p>Es solo un ejemplo: cualquier entero entre 1 y 10 es válido. Puede cambiar o repetirse al recargar.</p>
+      </details>
+    </main>
+    <script>
+      // Genera un número entero aleatorio entre 1 y 10, ambos incluidos.
+      // Guárdalo en una variable llamada randomNumber.
+
+      // Muestra el número generado en la consola.
+    </script>
+  </body>
+</html>
+

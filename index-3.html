@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Calcular una propina</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 3 · Calcular una propina</h1>
+        <p>Utiliza operaciones aritméticas para calcular un porcentaje.</p>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Para calcular un porcentaje, multiplica la cantidad por el porcentaje y divide entre <code>100</code>. En JavaScript, <code>*</code> multiplica y <code>/</code> divide.</p>
+        <pre><code>const precio = 60;
+const descuento = precio * 10 / 100;
+console.log(descuento); // 6</code></pre>
+        <p class="idea"><strong>Los números se escriben sin comillas.</strong> JavaScript utiliza el punto como separador decimal: <code>2.5</code>.</p>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre este archivo con <strong>Live Server</strong> y abre la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <ol>
+          <li>La cuenta del restaurante es de 84 €. Calcula una propina del 15 % a partir de <code>billTotal</code>.</li>
+          <li>Guarda el resultado en una variable llamada <code>tipAmount</code>.</li>
+          <li>Muestra <code>tipAmount</code> con <code>console.log()</code>.</li>
+        </ol>
+        <p>Completa el código dentro de la etiqueta <code>&lt;script&gt;</code>, al final del archivo. Intenta resolverlo antes de desplegar el resultado esperado.</p>
+      </section>
+      <details>
+        <summary>Resultado esperado (pulsa para verlo)</summary>
+        <pre>12.6</pre>
+        <p>La propina es de 12,60 €. La consola puede mostrarla sin el cero final.</p>
+      </details>
+    </main>
+    <script>
+      const billTotal = 84;
+
+      // Calcula la propina (el 15 % del total) y guárdala en tipAmount.
+
+      // Muestra tipAmount en la consola.
+    </script>
+  </body>
+</html>
+
