@@ -23,7 +23,3 @@ Cada página contiene teoría, un ejemplo y un resultado esperado desplegable. E
 | [index-4.html](index-4.html) | Número aleatorio | Generar un entero entre 1 y 10, ambos incluidos, y guardarlo en randomNumber. |
 
 Muestra el resultado de cada ejercicio con `console.log()`. Los HTML incluyen los enunciados completos y comentarios para orientar el trabajo.
-
-## Entrega
-
-Guarda los cuatro HTML y entrégalos según las indicaciones del docente. Conserva `style.css` junto a ellos para mantener el diseño.
